@@ -1,11 +1,10 @@
-
 import numpy as np
 import pandas as pd
 from scipy.stats import mode
 import matplotlib.pyplot as plt
 
 
-df=pd.read_csv('HamoyeData1.csv')
+df=pd.read_csv('fuel_ferc1.csv.csv')
 print(df.head(10))
 
 print(df.fuel_unit)
